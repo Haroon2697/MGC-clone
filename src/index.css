@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: poppins , sans-serif , Arial;
+}
+
+
+.custom-shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.custom-shadow:hover {
+  box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 3px 0px, rgba(60, 64, 67, 0.25) 0px 4px 8px 2px; /* Increased shadow on hover */
+}
