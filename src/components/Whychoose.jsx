@@ -6,7 +6,7 @@ export default function Whychoose() {
       <section className="py-8 sm:py-12 md:py-16 px-4 relative overflow-hidden">
         <div className="container mx-auto max-w-6xl flex flex-col items-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold mb-4 sm:mb-6 text-center">
-            WHY <span className="text-amber-500 font-extralight">MGC DEVELOPMENTS?</span>
+            WHY CHOOSE<span className="text-amber-500 font-extralight">MGC DEVELOPMENTS?</span>
           </h2>
           <p className="mb-8 sm:mb-10 md:mb-12 max-w-6xl text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed text-center">
             Choose MGC to turn your hard-earned money into an asset. Choose MGC to unlock a prosperous future,
