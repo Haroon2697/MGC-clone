@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
-body{
-  font-family: poppins , sans-serif , Arial;
+body {
+  font-family: poppins, sans-serif, Arial;
+  background-color: #dfe4d9;
 }
 
 
@@ -13,5 +14,186 @@ body{
 }
 
 .custom-shadow:hover {
-  box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 3px 0px, rgba(60, 64, 67, 0.25) 0px 4px 8px 2px; /* Increased shadow on hover */
+  box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 3px 0px, rgba(60, 64, 67, 0.25) 0px 4px 8px 2px;
+  /* Increased shadow on hover */
 }
+/* 
+hassan files css */
+
+html{
+  overflow-x: hidden;
+}
+/* body{
+  font-family: "Lato";
+} */
+.cSlider__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+
+  
+
+  
+  .slider-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.banner-content h1 ,.banner-content p{
+text-align: left;
+}
+.banner-content{
+  width: 100%;
+  margin: auto;
+  max-width: 80%;
+}
+
+.banner-content h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 300;
+}
+
+
+.banner-content p{
+  font-size:20px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.filter-box-alignment-box{
+  position: relative;
+}
+@media (min-width:768px){
+  .filter-box-custom{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    width: 75%;
+    top: -115px;
+    z-index: 55;
+    left: 49%;
+  }
+}
+
+.hero-section-parent-box{
+height: 100vh;
+}
+.floating-button-custom{
+  z-index: 555;
+  filter: grayscale(100%) sepia(100%) hue-rotate(70deg) saturate(600%) brightness(90%);
+
+}
+
+.hero-content-custom-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-section-parent-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+  z-index: 1; /* Ensure it sits on top of the background image */
+}
+.floating-button-custom img{
+  /* filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5)); */
+  width: 50px;
+
+}
+.filter-button-custom{
+  background-color: white;
+  border: 1px solid #4a9561;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #4a9561;
+  padding-left: 30px;
+  border-radius: 30px;
+  font-weight: 400;
+}
+.filter-button-custom:hover{
+  background-color: white;
+  border: 0px solid #4a9561;
+  color: #4a9561;
+  border: 1px solid #4a9561;
+}
+.filter-box-custom select{
+  border: none;
+border-right: 1px solid #4a9561;
+}
+.chatbot-custom-box{
+  z-index: 444;
+}
+.chatbox-form-custom-box{
+  padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+.slider-nav-thumbnails .slick-slide {
+	opacity: 0.5;
+}
+
+.slider-nav-thumbnails .slick-slide.slick-active {
+	opacity: 1;
+  background: green;
+}
+
+.slick-prev{
+  left: 12px !important;
+  z-index: 22;
+}
+.slick-next{
+  right: 12px !important;
+  z-index: 33;
+}
+
+.slider-parent-custom{
+  width: 100%;
+  margin: auto;
+  max-width: 88%;
+}
+.slick-list{
+  padding:0px 0px !important;
+}
+
+.thumbnail-slider-wrapper{
+  margin-left: 15px !important;
+}
+.slider-parent-custom{
+  padding: 60px 0px;
+}
+.second-box-custom{
+  font-size: 45px;
+  color: #4a9561;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+
+.chatbot-form-custom{
+  align-items: center;
+  gap: 7px;
+  padding-left: 15px;
+}
+.chatbot-custom-box h2{
+  background: transparent;
+  font-size: 15px;
+  color: #4a9561;
+}
+

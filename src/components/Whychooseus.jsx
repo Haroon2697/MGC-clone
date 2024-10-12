@@ -26,7 +26,7 @@ const Counter = ({ endCount }) => {
 
 export default function Whychooseus() {
   return (
-    <div className="relative bg-black text-white min-h-screen flex flex-col justify-between">
+    <div className="relative bg-green-300 text-white min-h-screen flex flex-col justify-between">
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -38,7 +38,7 @@ export default function Whychooseus() {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-black/10 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-green-400  to-green-200 z-0"></div>
       
       <div className="relative z-10 flex-grow">
         <div className="container mx-auto max-w-6xl py-8 sm:py-12 md:py-16 px-4">
@@ -49,20 +49,27 @@ export default function Whychooseus() {
               { icon: Briefcase, label: 'WORK FORCE', count: 400 },
               { icon: Users, label: 'PARTNERS', count: 100 },
             ].map((item, index) => (
-              <div key={index} className="bg-white bg-opacity-90 p-4 sm:p-6 rounded-lg text-black text-center transform transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:bg-opacity-80">
-                {React.createElement(item.icon, { className: 'w-8 h-8 sm:w-12 sm:h-12 mx-auto mb-2 sm:mb-4 text-amber-500' })}
+            <div key={index} 
+             className="bg-white/60 bg-opacity-120 p-4 sm:p-6 rounded-lg text-green-500 text-center  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-opacity-80 border-t-2 border-l-2 border-white/10"
+             style={{
+              boxShadow: 'rgba(50, 50, 93, 0.25) 0px 10px 70px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'
+              }}>
+                
+                {React.createElement(item.icon, { className: 'w-8 h-8 sm:w-12 sm:h-12 mx-auto mb-2 sm:mb-4 text-green-500' })}
                 <Counter endCount={item.count} />
-                <div className="text-xs sm:text-sm text-gray-700">{item.label}</div>
-              </div>
+               
+               <div className="text-xs sm:text-sm text-green-500">{item.label}</div>
+            </div>
+
             ))}
           </div>
 
           <div className="relative py-8 sm:py-12 md:py-16 mb-8 sm:mb-12 md:mb-16">
             <h3 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-2">
               UNLOCK <br />
-              <span className="text-amber-500">PROSPERITY</span>
+              <span className="text-green-600">PROSPERITY</span>
             </h3>
-            <p className="text-amber-500 text-lg sm:text-xl mb-4">#FIRSTTIMEINPAKISTAN</p>
+            <p className="text-green-700 text-lg sm:text-xl mb-4">#FIRSTTIMEINPAKISTAN</p>
             <button className="bg-transparent border border-white text-white px-4 sm:px-6 py-2 rounded-full hover:bg-amber-500 hover:border-amber-500 transition-colors duration-300 text-sm sm:text-base">
               Read More
             </button>
@@ -71,11 +78,11 @@ export default function Whychooseus() {
 
         <section className="py-8 sm:py-12 md:py-16 px-4">
           <div className="container mx-auto max-w-6xl text-center">
-            <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4">JOIN US TODAY</h3>
-            <p className="mb-6 sm:mb-8 max-w-3xl mx-auto text-gray-200 leading-relaxed text-sm sm:text-base">
+            <h3 className="text-2xl sm:text-3xl  text-green-600 md:text-4xl lg:text-5xl font-semibold mb-4">JOIN US TODAY</h3>
+            <p className="mb-6 sm:mb-8 max-w-3xl mx-auto text-white leading-relaxed text-sm sm:text-base">
               Experience the difference with MGC Developments and take the first step towards your future.
             </p>
-            <button className="bg-amber-500 border border-amber-500 text-white px-4 sm:px-6 py-2 rounded-full hover:bg-transparent hover:border-white transition-colors duration-300 text-sm sm:text-base">
+            <button className="bg-amber-500 border border-yellow-300 text-white px-4 sm:px-6 py-2 rounded-full hover:bg-transparent hover:border-white transition-colors duration-300 text-sm sm:text-base">
               Get Started
             </button>
           </div>

@@ -14,13 +14,13 @@ const logos = [
 const LogoMarquee = () => {
   return (
     <>
-      <div className="text-center py-4">
-        <h1 className="text-lime-500 font-semibold text-4xl">
-          OUR BRANDS <span className="text-black font-thin">COLLABORATION</span>
+      <div className="text-center py-6">
+        <h1 className="text-green-600 font-semibold text-4xl">
+          OUR BRANDS <span className="text-green-600 font-thin">COLLABORATION</span>
         </h1>
       </div>
 
-      <div className="relative w-full bg-black py-6 overflow-hidden">
+      <div className="relative w-full bg-green-800 py-6 overflow-hidden">
         {/* Left Gradient Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/100 via-black/30 to-black/100 z-10"></div> 
 
