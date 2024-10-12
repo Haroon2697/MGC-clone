@@ -30,7 +30,7 @@ const SliderSyncing = () => {
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-semibold text-center mb-8">
+      <h1 className="text-3xl slider-heading font-semibold text-center my-8">
         <span className="font-normal">Our</span> Projects
       </h1>
 

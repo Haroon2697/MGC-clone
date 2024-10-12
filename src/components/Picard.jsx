@@ -115,14 +115,14 @@ const Piccard = () => {
       <div className="flex justify-center mt-8">
         <button 
           onClick={prevSlide} 
-          className="bg-yellow-500 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
+          className="bg-green-600 text-white p-2 rounded-full mx-2 hover:bg-green-400 transition-colors duration-300"
           aria-label="Previous testimonial"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
         <button 
           onClick={nextSlide} 
-          className="bg-yellow-500 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
+          className="bg-green-600 text-white p-2 rounded-full mx-2 hover:bg-green-400 transition-colors duration-300"
           aria-label="Next testimonial"
         >
           <ChevronRight className="w-6 h-6" />
