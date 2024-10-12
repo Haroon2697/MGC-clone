@@ -82,9 +82,9 @@ const Piccard = () => {
   return (
     <div className="text-center p-6 font-sans">
       <h2 className="text-3xl font-bold mb-24">
-        <span className="text-black">WHAT </span>
-        <span className="text-amber-500">OUR CLIENT</span>
-        <span className="text-black"> SAY?</span>
+        <span className="text-green-600">WHAT </span>
+        <span className="text-yellow-300">OUR CLIENT</span>
+        <span className="text-green-600"> SAY?</span>
       </h2>
       <div className="relative max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
         {visibleTestimonials.map((testimonial, index) => (
@@ -115,14 +115,14 @@ const Piccard = () => {
       <div className="flex justify-center mt-8">
         <button 
           onClick={prevSlide} 
-          className="bg-amber-500 text-white p-2 rounded-full mx-2 hover:bg-amber-600 transition-colors duration-300"
+          className="bg-yellow-300 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
           aria-label="Previous testimonial"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
         <button 
           onClick={nextSlide} 
-          className="bg-amber-500 text-white p-2 rounded-full mx-2 hover:bg-amber-600 transition-colors duration-300"
+          className="bg-yellow-300 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
           aria-label="Next testimonial"
         >
           <ChevronRight className="w-6 h-6" />

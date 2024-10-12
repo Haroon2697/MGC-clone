@@ -23,7 +23,8 @@ const Update = () => {
     <section className="py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 lg:py-24 lg:px-16 bg-white">
       <div className="relative max-w-6xl mx-auto h-auto">
         <h2 className="text-3xl sm:text-4xl font-bold font-sans text-center mb-8 sm:mb-12">
-          <span className="text-amber-500">NEWS</span>/UPDATES
+          <span className="text-green-600"> NEWS /</span>
+          <span className="text-yellow-300"> UPDATES</span>
         </h2>
 
         {/* Responsive grid layout */}
