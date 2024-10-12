@@ -18,11 +18,46 @@ const Footer = () => {
           <div>
             <h3 className="text-lg text-yellow-300 font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">FAQ</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Offers</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Realtors</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Blog</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Events</a></li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Offers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Realtors
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Events
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -30,9 +65,30 @@ const Footer = () => {
           <div>
             <h3 className="text-lg text-yellow-400 font-semibold mb-4">Useful Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Site Policy</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Terms & Conditions</a></li>
-              <li><a href="#" className="text-white hover:text-gray-100 transition-colors text-sm">Privacy Policy</a></li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Site Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className={`inline-block py-2 relative text-white transition-colors hover:text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:bg-white after:w-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100`}
+                >
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -72,7 +128,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-yellow-300 text-center text-sm">
-          <p className=" text-white text-center">&copy; MGC Copyright 2023 All rights reserved.</p>
+          <p className="text-white text-center">&copy; MGC Copyright 2023 All rights reserved.</p>
         </div>
       </div>
     </footer>

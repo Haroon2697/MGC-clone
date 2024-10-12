@@ -38,7 +38,7 @@ export default function Whychooseus() {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-black/10 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-black/30 z-0"></div>
       
       <div className="relative z-10 flex-grow">
         <div className="container mx-auto max-w-6xl py-8 sm:py-12 md:py-16 px-4">
@@ -49,11 +49,18 @@ export default function Whychooseus() {
               { icon: Briefcase, label: 'WORK FORCE', count: 400 },
               { icon: Users, label: 'PARTNERS', count: 100 },
             ].map((item, index) => (
-              <div key={index} className="bg-gradient-to-b from-black/100 to-black/0 bg-opacity-120 p-4 sm:p-6 rounded-lg text-green-600 text-center transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-opacity-80">
-                {React.createElement(item.icon, { className: 'w-8 h-8 sm:w-12 sm:h-12 mx-auto mb-2 sm:mb-4 text-amber-500' })}
+            <div key={index} 
+             className="bg-gradient-to-b from-black/100 to-black/10 bg-opacity-120 p-4 sm:p-6 rounded-lg text-green-500 text-center  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-opacity-80 border-t-2 border-l-2 border-white/10"
+             style={{
+              boxShadow: 'rgba(50, 50, 93, 0.25) 0px 10px 70px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'
+              }}>
+                
+                {React.createElement(item.icon, { className: 'w-8 h-8 sm:w-12 sm:h-12 mx-auto mb-2 sm:mb-4 text-green-500' })}
                 <Counter endCount={item.count} />
-                <div className="text-xs sm:text-sm text-green-700">{item.label}</div>
-              </div>
+               
+               <div className="text-xs sm:text-sm text-green-500">{item.label}</div>
+            </div>
+
             ))}
           </div>
 

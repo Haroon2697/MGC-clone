@@ -20,11 +20,11 @@ const newsItems = [
 
 const Update = () => {
   return (
-    <section className="py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 lg:py-24 lg:px-16 bg-white">
+    <section className="py-12 px-4 sm:py-16 sm:px-6 md:py-20 md:px-8 lg:py-24 lg:px-16">
       <div className="relative max-w-6xl mx-auto h-auto">
         <h2 className="text-3xl sm:text-4xl font-bold font-sans text-center mb-8 sm:mb-12">
           <span className="text-green-600"> NEWS /</span>
-          <span className="text-yellow-300"> UPDATES</span>
+          <span className="text-green-600"> UPDATES</span>
         </h2>
 
         {/* Responsive grid layout */}
@@ -39,6 +39,7 @@ const Update = () => {
                 <img
                   src={item.image}
                   alt={item.title}
+                  loading="lazy"  // Added lazy loading
                   className="w-full h-full object-cover transition-all duration-300 ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out" />

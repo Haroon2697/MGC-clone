@@ -83,14 +83,14 @@ const Piccard = () => {
     <div className="text-center p-6 font-sans">
       <h2 className="text-3xl font-bold mb-24">
         <span className="text-green-600">WHAT </span>
-        <span className="text-yellow-300">OUR CLIENT</span>
+        <span className="text-green-600">OUR CLIENT</span>
         <span className="text-green-600"> SAY?</span>
       </h2>
       <div className="relative max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
         {visibleTestimonials.map((testimonial, index) => (
           <div 
             key={index} 
-            className="bg-white pt-10 pb-6 px-6 rounded-lg custom-shadow h-full flex flex-col justify-between relative transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-black/5" // Added hover effects
+            className="bg-green-50 pt-10 pb-6 px-6 rounded-lg custom-shadow h-full flex flex-col justify-between relative transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-green-100" // Added hover effects
           >
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-md">
@@ -115,14 +115,14 @@ const Piccard = () => {
       <div className="flex justify-center mt-8">
         <button 
           onClick={prevSlide} 
-          className="bg-yellow-300 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
+          className="bg-yellow-500 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
           aria-label="Previous testimonial"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
         <button 
           onClick={nextSlide} 
-          className="bg-yellow-300 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
+          className="bg-yellow-500 text-white p-2 rounded-full mx-2 hover:bg-green-600 transition-colors duration-300"
           aria-label="Next testimonial"
         >
           <ChevronRight className="w-6 h-6" />
