@@ -19,8 +19,8 @@ const FilterArea = ({ options1 = [], options2 = [], options3 = [], onApplyFilter
   };
 
   return (
-    <div className='filter-box-alignment-box bg-green-700'>
-    <div className="p-4 bg-white rounded filter-box-custom shadow-md">
+    <div className='filter-box-alignment-box bg-white'>
+    <div className="p-4 bg-green-700 rounded filter-box-custom shadow-md">
       <div className="flex flex-col md:flex-row md:space-x-4 items-center">
         <select
           value={filter1}
