@@ -38,7 +38,7 @@ export default function Whychooseus() {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-black/30 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-green-400  to-green-200 z-0"></div>
       
       <div className="relative z-10 flex-grow">
         <div className="container mx-auto max-w-6xl py-8 sm:py-12 md:py-16 px-4">
@@ -50,7 +50,7 @@ export default function Whychooseus() {
               { icon: Users, label: 'PARTNERS', count: 100 },
             ].map((item, index) => (
             <div key={index} 
-             className="bg-gradient-to-b from-black/100 to-black/10 bg-opacity-120 p-4 sm:p-6 rounded-lg text-green-500 text-center  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-opacity-80 border-t-2 border-l-2 border-white/10"
+             className="bg-white/60 bg-opacity-120 p-4 sm:p-6 rounded-lg text-green-500 text-center  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-opacity-80 border-t-2 border-l-2 border-white/10"
              style={{
               boxShadow: 'rgba(50, 50, 93, 0.25) 0px 10px 70px -20px, rgba(0, 0, 0, 0.3) 0px 30px 40px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'
               }}>
@@ -69,7 +69,7 @@ export default function Whychooseus() {
               UNLOCK <br />
               <span className="text-green-600">PROSPERITY</span>
             </h3>
-            <p className="text-yellow-300 text-lg sm:text-xl mb-4">#FIRSTTIMEINPAKISTAN</p>
+            <p className="text-green-700 text-lg sm:text-xl mb-4">#FIRSTTIMEINPAKISTAN</p>
             <button className="bg-transparent border border-white text-white px-4 sm:px-6 py-2 rounded-full hover:bg-amber-500 hover:border-amber-500 transition-colors duration-300 text-sm sm:text-base">
               Read More
             </button>
