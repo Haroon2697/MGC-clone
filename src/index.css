@@ -197,3 +197,11 @@ border-right: 1px solid #4a9561;
   color: #4a9561;
 }
 
+
+
+.slider-heading{
+  font-size: 45px !important;
+color: #4a9561 !important;
+text-transform: uppercase !important;
+font-weight: 700 !important;
+}

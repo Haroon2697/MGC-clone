@@ -14,7 +14,7 @@ const logos = [
 const LogoMarquee = () => {
   return (
     <>
-      <div className="text-center py-6">
+      <div className="text-center py-8">
         <h1 className="text-green-600 font-semibold text-4xl">
           OUR BRANDS <span className="text-green-600 font-thin">COLLABORATION</span>
         </h1>
